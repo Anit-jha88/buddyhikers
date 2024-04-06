@@ -1,0 +1,28 @@
+
+RewriteEngine On
+ RewriteCond %{HTTP_HOST} !^www\.
+ 
+ RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+ RewriteCond %{HTTPS} !=on
+ RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+
+ RewriteRule ^index\.html$ / [R=301,L]
+ RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
+
+ RewriteRule ^/([a-zA-Z-0-9-]+)/ blog.php?id=$1
+
+
+
+
+ 
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+Header always set Content-Security-Policy "upgrade-insecure-requests;"
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php80” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php80___lsphp .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

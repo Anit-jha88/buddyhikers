@@ -1,0 +1,562 @@
+[12-Mar-2023 21:49:38 Asia/Manila] PHP Notice:  Undefined variable: username in /home/r7e0fnm818zk/public_html/classes/Login.php on line 21
+[12-Mar-2023 21:49:38 Asia/Manila] PHP Notice:  Undefined variable: password in /home/r7e0fnm818zk/public_html/classes/Login.php on line 21
+[12-Mar-2023 21:49:38 Asia/Manila] PHP Notice:  Undefined variable: username in /home/r7e0fnm818zk/public_html/classes/Login.php on line 32
+[12-Mar-2023 21:49:38 Asia/Manila] PHP Notice:  Undefined variable: password in /home/r7e0fnm818zk/public_html/classes/Login.php on line 32
+[12-Mar-2023 21:50:02 Asia/Manila] PHP Notice:  Undefined variable: username in /home/r7e0fnm818zk/public_html/classes/Login.php on line 21
+[12-Mar-2023 21:50:02 Asia/Manila] PHP Notice:  Undefined variable: password in /home/r7e0fnm818zk/public_html/classes/Login.php on line 21
+[12-Mar-2023 21:50:02 Asia/Manila] PHP Notice:  Undefined variable: username in /home/r7e0fnm818zk/public_html/classes/Login.php on line 32
+[12-Mar-2023 21:50:02 Asia/Manila] PHP Notice:  Undefined variable: password in /home/r7e0fnm818zk/public_html/classes/Login.php on line 32
+[12-Mar-2023 21:50:12 Asia/Manila] PHP Notice:  Undefined variable: username in /home/r7e0fnm818zk/public_html/classes/Login.php on line 21
+[12-Mar-2023 21:50:12 Asia/Manila] PHP Notice:  Undefined variable: password in /home/r7e0fnm818zk/public_html/classes/Login.php on line 21
+[12-Mar-2023 21:50:12 Asia/Manila] PHP Notice:  Undefined variable: username in /home/r7e0fnm818zk/public_html/classes/Login.php on line 32
+[12-Mar-2023 21:50:12 Asia/Manila] PHP Notice:  Undefined variable: password in /home/r7e0fnm818zk/public_html/classes/Login.php on line 32
+[28-Jul-2023 01:25:23 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Competitive School' where meta_field = 'name'' at line 1 in /home2/mkstecfw/holyangelschool.co.in/admin/classes/SystemSettings.php:37
+Stack trace:
+#0 /home2/mkstecfw/holyangelschool.co.in/admin/classes/SystemSettings.php(37): mysqli->query('UPDATE system_i...')
+#1 /home2/mkstecfw/holyangelschool.co.in/admin/classes/SystemSettings.php(142): SystemSettings->update_settings_info()
+#2 {main}
+  thrown in /home2/mkstecfw/holyangelschool.co.in/admin/classes/SystemSettings.php on line 37
+[28-Jul-2023 01:33:45 Asia/Manila] PHP Warning:  move_uploaded_file(../admin/uploads/1690479180_logo (5).png): Failed to open stream: No such file or directory in /home2/mkstecfw/holyangelschool.co.in/admin/classes/SystemSettings.php on line 45
+[28-Jul-2023 01:33:45 Asia/Manila] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpzZdkxA&quot; to &quot;../admin/uploads/1690479180_logo (5).png&quot; in /home2/mkstecfw/holyangelschool.co.in/admin/classes/SystemSettings.php on line 45
+[28-Jul-2023 01:34:02 Asia/Manila] PHP Warning:  move_uploaded_file(../admin/uploads/1690479240_logo (5).png): Failed to open stream: No such file or directory in /home2/mkstecfw/holyangelschool.co.in/admin/classes/SystemSettings.php on line 45
+[28-Jul-2023 01:34:02 Asia/Manila] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpuSzXAg&quot; to &quot;../admin/uploads/1690479240_logo (5).png&quot; in /home2/mkstecfw/holyangelschool.co.in/admin/classes/SystemSettings.php on line 45
+[16-Sep-2023 01:55:31 Asia/Manila] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'mkstecfw_holyangelschool'@'localhost' (using password: YES) in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/DBConnection.php on line 18
+[16-Sep-2023 01:55:31 Asia/Manila] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'mkstecfw_holyangelschool'@'localhost' (using password: YES) in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/DBConnection.php on line 18
+[16-Sep-2023 01:55:31 Asia/Manila] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'mkstecfw_holyangelschool'@'localhost' (using password: YES) in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/DBConnection.php on line 18
+[16-Sep-2023 01:55:31 Asia/Manila] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'mkstecfw_holyangelschool'@'localhost' (using password: YES) in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/DBConnection.php on line 18
+[16-Sep-2023 22:07:12 Asia/Manila] PHP Notice:  Undefined variable: description in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/Content.php on line 65
+[16-Sep-2023 22:08:34 Asia/Manila] PHP Notice:  Undefined variable: description in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/Content.php on line 65
+[16-Sep-2023 22:08:57 Asia/Manila] PHP Notice:  Undefined variable: description in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/Content.php on line 65
+[16-Sep-2023 22:11:06 Asia/Manila] PHP Notice:  Undefined variable: description in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/Content.php on line 65
+[17-Sep-2023 22:49:59 Asia/Manila] PHP Notice:  Undefined variable: email in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/Login.php on line 55
+[17-Sep-2023 22:49:59 Asia/Manila] PHP Notice:  Undefined variable: password in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/Login.php on line 55
+[17-Sep-2023 22:49:59 Asia/Manila] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/Login.php on line 56
+[17-Sep-2023 23:00:13 Asia/Manila] PHP Notice:  Undefined variable: mobile in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/Login.php on line 55
+[17-Sep-2023 23:01:05 Asia/Manila] PHP Notice:  Undefined variable: mobile in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/Login.php on line 55
+[17-Sep-2023 23:17:31 Asia/Manila] PHP Notice:  Undefined variable: mobile in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/Login.php on line 55
+[17-Sep-2023 23:17:38 Asia/Manila] PHP Notice:  Undefined variable: mobile in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/Login.php on line 55
+[21-Sep-2023 02:49:48 Asia/Manila] PHP Notice:  Undefined variable: mobile in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/Login.php on line 55
+[21-Sep-2023 03:12:12 Asia/Manila] PHP Notice:  Undefined variable: mobile in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/Login.php on line 55
+[22-Sep-2023 01:36:04 Asia/Manila] PHP Notice:  Undefined variable: mobile in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/Login.php on line 55
+[22-Sep-2023 01:37:39 Asia/Manila] PHP Notice:  Undefined variable: mobile in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/Login.php on line 55
+[22-Sep-2023 01:40:01 Asia/Manila] PHP Notice:  Undefined variable: mobile in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/Login.php on line 55
+[22-Sep-2023 01:43:36 Asia/Manila] PHP Notice:  Undefined variable: mobile in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/Login.php on line 55
+[22-Sep-2023 01:43:55 Asia/Manila] PHP Notice:  Undefined variable: mobile in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/Login.php on line 55
+[22-Sep-2023 02:18:30 Asia/Manila] PHP Notice:  Undefined variable: _settings in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/Login.php on line 77
+[22-Sep-2023 02:18:30 Asia/Manila] PHP Notice:  Trying to get property 'userdata' of non-object in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/Login.php on line 77
+[22-Sep-2023 02:50:40 Asia/Manila] PHP Notice:  Undefined index: userdata in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/Login.php on line 71
+[22-Sep-2023 02:53:38 Asia/Manila] PHP Notice:  Undefined index: userdata in /home/am6jiu3i3u2d/public_html/demo/aeccsl/admin/classes/Login.php on line 71
+[23-Feb-2024 01:26:29 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `image` = 'uploads/1708622789_ss1.png'' at line 1 in /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php:47
+Stack trace:
+#0 /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php(47): mysqli->query('INSERT INTO  ba...')
+#1 /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php(348): Content->banner()
+#2 {main}
+  thrown in /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php on line 47
+[23-Feb-2024 01:26:58 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `image` = 'uploads/1708622818_ss1.png'' at line 1 in /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php:47
+Stack trace:
+#0 /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php(47): mysqli->query('INSERT INTO  ba...')
+#1 /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php(348): Content->banner()
+#2 {main}
+  thrown in /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php on line 47
+[23-Feb-2024 01:29:48 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `image` = 'uploads/1708622988_slider2.jpg'' at line 1 in /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php:47
+Stack trace:
+#0 /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php(47): mysqli->query('INSERT INTO  ba...')
+#1 /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php(348): Content->banner()
+#2 {main}
+  thrown in /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php on line 47
+[23-Feb-2024 01:31:26 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `image` = 'uploads/1708623086_slider2.jpg'' at line 1 in /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php:47
+Stack trace:
+#0 /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php(47): mysqli->query('INSERT INTO  ba...')
+#1 /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php(348): Content->banner()
+#2 {main}
+  thrown in /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php on line 47
+[23-Feb-2024 01:31:48 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `image` = 'uploads/1708623108_slider2.jpg'' at line 1 in /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php:47
+Stack trace:
+#0 /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php(47): mysqli->query('INSERT INTO  ba...')
+#1 /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php(348): Content->banner()
+#2 {main}
+  thrown in /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php on line 47
+[23-Feb-2024 01:32:09 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php:47
+Stack trace:
+#0 /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php(47): mysqli->query('INSERT INTO  ba...')
+#1 /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php(348): Content->banner()
+#2 {main}
+  thrown in /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php on line 47
+[23-Feb-2024 01:42:12 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'mkstecfw_buddyhikers.image' doesn't exist in /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php:239
+Stack trace:
+#0 /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php(239): mysqli->query('DELETE FROM ima...')
+#1 /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php(351): Content->banner_delete()
+#2 {main}
+  thrown in /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php on line 239
+[25-Feb-2024 05:23:12 Asia/Manila] PHP Warning:  Undefined variable $id in /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php on line 277
+[25-Feb-2024 05:23:12 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php:277
+Stack trace:
+#0 /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php(277): mysqli->query('DELETE FROM  In...')
+#1 /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php(342): Content->message_delete()
+#2 {main}
+  thrown in /home2/mkstecfw/demo.mkstechnosoft.com/buddyhikers/admin/classes/Content.php on line 277
+[16-Mar-2024 14:29:14 Asia/Manila] PHP Notice:  Array to string conversion in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 74
+[16-Mar-2024 14:29:14 Asia/Manila] PHP Notice:  Array to string conversion in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 74
+[16-Mar-2024 14:29:14 Asia/Manila] PHP Notice:  Array to string conversion in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 74
+[16-Mar-2024 14:29:14 Asia/Manila] PHP Notice:  Array to string conversion in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 74
+[16-Mar-2024 14:29:14 Asia/Manila] PHP Notice:  Undefined index: profile_photo in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 81
+[16-Mar-2024 14:37:50 Asia/Manila] PHP Notice:  Array to string conversion in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 74
+[16-Mar-2024 14:37:50 Asia/Manila] PHP Notice:  Array to string conversion in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 74
+[16-Mar-2024 14:37:50 Asia/Manila] PHP Notice:  Undefined index: profile_photo in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 81
+[16-Mar-2024 14:37:50 Asia/Manila] PHP Notice:  Undefined variable: sql in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 92
+[16-Mar-2024 14:37:50 Asia/Manila] PHP Warning:  mysqli::query(): Empty query in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 92
+[16-Mar-2024 14:37:50 Asia/Manila] PHP Notice:  Undefined variable: sql in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 106
+[16-Mar-2024 14:38:16 Asia/Manila] PHP Notice:  Array to string conversion in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 74
+[16-Mar-2024 14:38:16 Asia/Manila] PHP Notice:  Array to string conversion in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 74
+[16-Mar-2024 14:38:16 Asia/Manila] PHP Notice:  Undefined index: profile_photo in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 81
+[16-Mar-2024 14:38:16 Asia/Manila] PHP Notice:  Undefined variable: sql in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 92
+[16-Mar-2024 14:38:16 Asia/Manila] PHP Warning:  mysqli::query(): Empty query in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 92
+[16-Mar-2024 14:38:16 Asia/Manila] PHP Notice:  Undefined variable: sql in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 106
+[16-Mar-2024 14:39:11 Asia/Manila] PHP Notice:  Array to string conversion in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 74
+[16-Mar-2024 14:39:11 Asia/Manila] PHP Notice:  Array to string conversion in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 74
+[16-Mar-2024 14:39:11 Asia/Manila] PHP Notice:  Undefined index: profile_photo in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 81
+[16-Mar-2024 14:40:49 Asia/Manila] PHP Notice:  Undefined index: profile_photo in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 81
+[16-Mar-2024 16:12:37 Asia/Manila] PHP Notice:  Undefined variable: activity in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 73
+[16-Mar-2024 16:12:37 Asia/Manila] PHP Notice:  Undefined variable: description in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 73
+[16-Mar-2024 16:12:37 Asia/Manila] PHP Warning:  array_combine() expects parameter 1 to be array, null given in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/admin/classes/Content.php on line 73
+[29-Mar-2024 19:43:13 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'title' in 'field list' in /home1/buddyrbn/public_html/admin/classes/Content.php:133
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(133): mysqli->query('INSERT INTO  tr...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(414): Content->service()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 133
+[30-Mar-2024 11:35:28 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's brother, during the battle with Ravana. The village is said to be named after ' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:167
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(167): mysqli->query('INSERT INTO  It...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(414): Content->service()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 167
+[30-Mar-2024 11:36:18 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's brother, during the battle with Ravana. The village is said to be named after ' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:167
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(167): mysqli->query('INSERT INTO  It...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(414): Content->service()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 167
+[30-Mar-2024 11:36:26 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's brother, during the battle with Ravana. The village is said to be named after ' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:167
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(167): mysqli->query('INSERT INTO  It...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(414): Content->service()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 167
+[30-Mar-2024 11:40:08 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's brother, during the battle with Ravana. The village is said to be named after ' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:167
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(167): mysqli->query('INSERT INTO  It...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(414): Content->service()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 167
+[30-Mar-2024 12:18:45 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's most breathtaking destinations. From the serene beauty of Chopta to the majest' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:133
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(133): mysqli->query('UPDATE  treks s...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(414): Content->service()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 133
+[30-Mar-2024 13:00:14 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's footprints, making it a significant religious site for Hindus.
+These attracti' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:133
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(133): mysqli->query('INSERT INTO  tr...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(414): Content->service()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 133
+[30-Mar-2024 13:00:28 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's footprints, making it a significant religious site for Hindus.
+These attracti' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:133
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(133): mysqli->query('INSERT INTO  tr...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(414): Content->service()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 133
+[30-Mar-2024 13:01:22 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's footprints, making it a significant religious site for Hindus.
+These attracti' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:133
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(133): mysqli->query('INSERT INTO  tr...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(414): Content->service()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 133
+[30-Mar-2024 13:22:16 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'title' in 'field list' in /home1/buddyrbn/public_html/admin/classes/Content.php:133
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(133): mysqli->query('INSERT INTO  tr...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(414): Content->service()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 133
+[31-Mar-2024 03:37:56 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 80
+[31-Mar-2024 03:37:56 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'postcategory' in 'field list' in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(535): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 03:38:21 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 80
+[31-Mar-2024 03:38:21 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'postcategory' in 'field list' in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(535): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 03:39:19 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 80
+[31-Mar-2024 03:39:19 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'postcategory' in 'field list' in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(535): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 03:40:04 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(535): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 03:42:20 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(535): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 03:43:52 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'postcategory' in 'field list' in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(535): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 03:44:00 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'postcategory' in 'field list' in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(535): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 03:48:50 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 80
+[31-Mar-2024 03:48:50 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'postcategory' in 'field list' in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(535): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 03:50:22 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 80
+[31-Mar-2024 03:50:22 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'postcategory' in 'field list' in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(535): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 03:51:00 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 80
+[31-Mar-2024 03:51:00 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'postcategory' in 'field list' in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(535): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 03:51:17 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(535): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 03:54:53 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 79
+[31-Mar-2024 03:54:53 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'postcategory' in 'field list' in /home1/buddyrbn/public_html/admin/classes/Content.php:130
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(130): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(534): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 130
+[31-Mar-2024 03:56:50 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'postcategory' in 'field list' in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(535): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 03:56:59 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'postcategory' in 'field list' in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(535): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 04:01:57 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's a cultural experience, a natural adventure, historical exploration, or a beach' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(535): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 04:11:59 Asia/Manila] PHP Warning:  Undefined variable $last_id in /home1/buddyrbn/public_html/admin/classes/Content.php on line 159
+[31-Mar-2024 04:11:59 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `nearbyplaces`='Outdoor Swimming Pool'' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:160
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(160): mysqli->query('INSERT INTO   `...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(535): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 160
+[31-Mar-2024 04:13:40 Asia/Manila] PHP Warning:  Undefined variable $last_id in /home1/buddyrbn/public_html/admin/classes/Content.php on line 159
+[31-Mar-2024 04:13:40 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `nearbyplaces`='as'' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:160
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(160): mysqli->query('INSERT INTO   `...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(535): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 160
+[31-Mar-2024 04:14:11 Asia/Manila] PHP Warning:  Undefined variable $last_id in /home1/buddyrbn/public_html/admin/classes/Content.php on line 159
+[31-Mar-2024 04:14:11 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `nearbyplaces`='ZX'' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:160
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(160): mysqli->query('INSERT INTO   `...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(535): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 160
+[31-Mar-2024 04:18:25 Asia/Manila] PHP Warning:  Undefined variable $last_id in /home1/buddyrbn/public_html/admin/classes/Content.php on line 159
+[31-Mar-2024 04:18:25 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `nearbyplaces`='x'' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:160
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(160): mysqli->query('INSERT INTO   `...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(535): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 160
+[31-Mar-2024 04:19:59 Asia/Manila] PHP Warning:  Undefined variable $last_id in /home1/buddyrbn/public_html/admin/classes/Content.php on line 159
+[31-Mar-2024 04:19:59 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `nearbyplaces`='x'' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:160
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(160): mysqli->query('INSERT INTO   `...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(535): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 160
+[31-Mar-2024 04:20:14 Asia/Manila] PHP Warning:  Undefined variable $last_id in /home1/buddyrbn/public_html/admin/classes/Content.php on line 159
+[31-Mar-2024 04:20:14 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `nearbyplaces`='y'' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:160
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(160): mysqli->query('INSERT INTO   `...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(535): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 160
+[31-Mar-2024 04:20:34 Asia/Manila] PHP Warning:  Undefined variable $last_id in /home1/buddyrbn/public_html/admin/classes/Content.php on line 159
+[31-Mar-2024 04:20:34 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `nearbyplaces`='w'' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:160
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(160): mysqli->query('INSERT INTO   `...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(535): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 160
+[31-Mar-2024 04:54:20 Asia/Manila] PHP Warning:  Undefined variable $last_id in /home1/buddyrbn/public_html/admin/classes/Content.php on line 159
+[31-Mar-2024 04:54:20 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `nearbyplaces`='XXZ'' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:160
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(160): mysqli->query('INSERT INTO   `...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(535): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 160
+[31-Mar-2024 19:37:09 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's footprints, making it a significant religious site for Hindus.
+These attracti' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('UPDATE  stay se...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(557): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 19:38:33 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's footprints, making it a significant religious site for Hindus.
+These attracti' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('UPDATE  stay se...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(557): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 19:39:27 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's footprints, making it a significant religious site for Hindus.
+These attracti' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('UPDATE  stay se...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(557): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 19:48:21 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's footprints, making it a significant religious site for Hindus.
+These attracti' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('UPDATE  stay se...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(557): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 19:54:21 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's footprints, making it a significant religious site for Hindus.
+These attracti' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(557): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 19:55:31 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's footprints, making it a significant religious site for Hindus.
+These attracti' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(557): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 19:56:04 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's footprints, making it a significant religious site for Hindus.
+These attracti' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(557): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 19:56:40 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's footprints, making it a significant religious site for Hindus.
+These attracti' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(557): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 19:57:53 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's footprints, making it a significant religious site for Hindus.
+These attracti' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(557): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 19:58:38 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's footprints, making it a significant religious site for Hindus.
+These attracti' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(557): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 19:59:19 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's footprints, making it a significant religious site for Hindus.
+These attracti' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(557): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 20:03:09 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's footprints, making it a significant religious site for Hindus.
+These attracti' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('UPDATE  stay se...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(557): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 20:04:05 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's footprints, making it a significant religious site for Hindus.
+These attracti' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('UPDATE  stay se...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(557): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 20:04:55 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's footprints, making it a significant religious site for Hindus.
+These attracti' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('UPDATE  stay se...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(557): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 20:05:17 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's footprints, making it a significant religious site for Hindus.
+These attracti' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('UPDATE  stay se...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(557): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[31-Mar-2024 20:08:56 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's footprints, making it a significant religious site for Hindus. These attractio' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:160
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(160): mysqli->query('INSERT INTO   `...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(557): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 160
+[31-Mar-2024 22:15:51 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home1/buddyrbn/public_html/admin/classes/Content.php:131
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(131): mysqli->query('INSERT INTO  st...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(557): Content->service1()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 131
+[06-Apr-2024 21:53:57 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:53:57 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:53:57 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:53:57 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:53:57 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:53:57 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:53:57 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'activity' in 'field list' in /home1/buddyrbn/public_html/admin/classes/Content.php:251
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(251): mysqli->query('INSERT INTO  tr...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(569): Content->service()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 251
+[06-Apr-2024 21:54:33 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:54:33 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:54:33 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:54:33 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:54:33 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:54:33 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:54:33 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'activity' in 'field list' in /home1/buddyrbn/public_html/admin/classes/Content.php:251
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(251): mysqli->query('INSERT INTO  tr...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(569): Content->service()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 251
+[06-Apr-2024 21:56:38 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:56:38 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:56:38 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:56:38 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:56:38 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:56:38 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:56:38 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'activity' in 'field list' in /home1/buddyrbn/public_html/admin/classes/Content.php:251
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(251): mysqli->query('INSERT INTO  tr...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(569): Content->service()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 251
+[06-Apr-2024 21:58:25 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:58:25 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:58:25 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:58:25 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:58:25 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:58:25 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:58:25 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'activity' in 'field list' in /home1/buddyrbn/public_html/admin/classes/Content.php:251
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(251): mysqli->query('INSERT INTO  tr...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(569): Content->service()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 251
+[06-Apr-2024 21:59:44 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:59:44 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:59:44 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:59:44 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:59:44 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:59:44 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 21:59:44 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'activity' in 'field list' in /home1/buddyrbn/public_html/admin/classes/Content.php:251
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(251): mysqli->query('INSERT INTO  tr...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(565): Content->service()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 251
+[06-Apr-2024 22:00:04 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:00:04 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:00:04 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:00:04 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:00:04 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:00:04 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:00:04 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'activity' in 'field list' in /home1/buddyrbn/public_html/admin/classes/Content.php:251
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(251): mysqli->query('INSERT INTO  tr...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(565): Content->service()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 251
+[06-Apr-2024 22:00:51 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:00:51 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:00:51 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:00:51 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:00:51 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:00:51 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:00:51 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'activity' in 'field list' in /home1/buddyrbn/public_html/admin/classes/Content.php:251
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(251): mysqli->query('INSERT INTO  tr...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(565): Content->service()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 251
+[06-Apr-2024 22:01:02 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:01:02 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:01:02 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:01:02 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:01:02 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:01:02 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:01:02 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'activity' in 'field list' in /home1/buddyrbn/public_html/admin/classes/Content.php:251
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(251): mysqli->query('INSERT INTO  tr...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(565): Content->service()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 251
+[06-Apr-2024 22:03:00 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:03:00 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:03:00 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:03:00 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:03:00 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:03:00 Asia/Manila] PHP Warning:  Array to string conversion in /home1/buddyrbn/public_html/admin/classes/Content.php on line 200
+[06-Apr-2024 22:03:00 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'activity' in 'field list' in /home1/buddyrbn/public_html/admin/classes/Content.php:251
+Stack trace:
+#0 /home1/buddyrbn/public_html/admin/classes/Content.php(251): mysqli->query('INSERT INTO  tr...')
+#1 /home1/buddyrbn/public_html/admin/classes/Content.php(565): Content->service()
+#2 {main}
+  thrown in /home1/buddyrbn/public_html/admin/classes/Content.php on line 251

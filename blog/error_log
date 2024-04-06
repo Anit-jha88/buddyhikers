@@ -1,0 +1,3 @@
+[22-Mar-2024 03:29:59 UTC] PHP Warning:  Error while sending QUERY packet. PID=1347990 in /home/am6jiu3i3u2d/public_html/demo2/buddyhikers/blog/wp-includes/wp-db.php on line 2169
+[29-Mar-2024 06:27:40 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home1/buddyrbn/public_html/blog/wp-content/themes/twentytwentyone/single.php on line 25
+[29-Mar-2024 06:31:06 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home1/buddyrbn/public_html/blog/wp-content/themes/twentytwentyone/single.php on line 25
