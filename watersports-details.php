@@ -283,7 +283,7 @@ if(isset($_GET['id'])){
                                             <div class="price-area mb-20">
                                                 <h6>Starting Price:</h6>
                                                 <span class="cusPrice">₹<?php echo isset($starting_price) ? $starting_price : '' ?></span>
-                                                <span class="cusCont"> per person</span>
+                                                <span class="cusCont"><?php echo isset($persontotal) ? $persontotal : '' ?>  person</span>
                                             </div>
                                             <button type="submit" class="primary-btn1 two">Book Now</button>
                                         </div>
