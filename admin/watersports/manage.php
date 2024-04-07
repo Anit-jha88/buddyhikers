@@ -87,21 +87,26 @@ if(isset($_GET['id'])){
 				
 						<div class="row" class="details">
 				
-					<div class="col-sm-6">
+					<div class="col-sm-4">
 						<div class="form-group">
 							<label for="title" class="control-label">Starting Price</label>
 							<input type="text" name="starting_price" class="form-control" value="<?php echo isset($starting_price) ? $starting_price : '' ?>"/>
 						</div>
 					</div>
 					
-						<div class="col-sm-6">
+						<div class="col-sm-4">
 						<div class="form-group">
 							<label for="title" class="control-label">Cross Price</label>
 							<input type="text" name="cross_price" class="form-control" value="<?php echo isset($cross_price) ? $cross_price : '' ?>"/>
 						</div>
 					</div>
 					
-					
+						<div class="col-sm-4">
+						<div class="form-group">
+							<label for="title" class="control-label">Total Person</label>
+							<input type="text" name="persontotal" class="form-control" value="<?php echo isset($persontotal) ? $persontotal : '' ?>"/>
+						</div>
+					</div>
 					
 				
 				</div>
@@ -296,7 +301,7 @@ if(isset($_GET['id'])){
 						</div>
 					</div>
 					<?php if($n==$num){ ?>
-					 <a href="javascript:void(0);" class="add_button btn btn-primary btn-sm" title="Add field">Add More</a>
+					 <a href="javascript:void(0);" class="add_button2 btn btn-primary btn-sm" title="Add field">Add More</a>
 					 <?php } ?>
 				</div>
 				
